@@ -1,0 +1,28 @@
+{
+  "name": "@anaphase/eslint-config-base",
+  "version": "1.0.0",
+  "description": "An eslint config for projects using Babel.",
+  "main": "index.js",
+  "scripts": {
+    "bump-version": "npm version patch -m \"Bumps version to %s\" && npm publish",
+    "bump-minor-version": "npm version minor -m \"Bumps version to %s\" && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anaphase/eslint-config-base"
+  },
+  "authors": [
+    "Colin Wood <colinjameswood@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anaphase/eslint-config-base/issues"
+  },
+  "homepage": "https://github.com/anaphase/eslint-config-base",
+  "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
