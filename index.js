@@ -2,8 +2,11 @@ module.exports = {
   extends: [
     'airbnb-base',
   ],
-  parser: 'babel-eslint',
+  parserOptions: {
+    parser: 'babel-eslint',
+  },
   rules: {
+
     // disable max line length
     'max-len': 'off',
 
